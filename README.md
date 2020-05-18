@@ -20,6 +20,8 @@
 
 Nesse desafio foi dado início ao aprendizado de ReactJS, criando o primeiro projeto utilizando TypeScript e conceitos de **componentização**, **estado** e **propriedade**.
 
+Essa aplicação teve como objetivo a listagem de repositórios e issues existentes na API do **GitHub**.
+
 ### **Componente**
 
 Cria-se um componente quando você percebe a necessidade de utiliza-lo em outro lugar da sua aplicação.
@@ -36,9 +38,6 @@ Utiliza-se o hook <b>useState</b> para criar um estado. Essa função retorna um
 
 Alguma informação que pode ser atribuida em um componente pai que será repassada para um componente filho.
 
-
-
-Essa aplicação teve como objetivo a listagem de repositórios e issues existentes na API do **GitHub**.
 
 ---
 
