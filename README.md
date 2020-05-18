@@ -29,7 +29,7 @@ Cria-se um componente quando você percebe a necessidade de utiliza-lo em outro 
 ### **Estado**
 
 <p>
-Utiliza-se o hook **useState** para criar um estado. Essa função retorna um *array* com duas posições, a primeira é a variável com seu valor inicial e a segunda é a função para atualizarmos seu valor. Sem ferir os conceitos de imutabilidade, onde não podemos alterar seu formato, incluir ou informações, é preciso recriar aquela informação com as alterações que desejamos.
+Utiliza-se o hook <b>useState</b> para criar um estado. Essa função retorna um *array* com duas posições, a primeira é a variável com seu valor inicial e a segunda é a função para atualizarmos seu valor. Sem ferir os conceitos de imutabilidade, onde não podemos alterar seu formato, incluir ou informações, é preciso recriar aquela informação com as alterações que desejamos.
 </p>
 
 ### **Propriedade**
