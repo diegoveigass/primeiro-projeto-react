@@ -5,8 +5,11 @@
 </h1>
 
 <h1 align="center">
-  <img src="https://ik.imagekit.io/diegoveigass/ezgif-3-aa48ac21e392_G-AagDTDy.gif">
+  <img src="https://ik.imagekit.io/diegoveigass/github_explorer-Google-Chrome-2020-05-26-10-49-14_OYMF_i_rj.gif">
+
+  Demo da aplicação
 </h1>
+
 
 
 # Indice
@@ -31,7 +34,7 @@ Cria-se um componente quando você percebe a necessidade de utiliza-lo em outro 
 ### **Estado**
 
 <p>
-Utiliza-se o hook <b>useState</b> para criar um estado. Essa função retorna um *array* com duas posições, a primeira é a variável com seu valor inicial e a segunda é a função para atualizarmos seu valor. Sem ferir os conceitos de imutabilidade, onde não podemos alterar seu formato, incluir ou informações, é preciso recriar aquela informação com as alterações que desejamos.
+Utiliza-se o hook <b>useState</b> para criar um estado. Essa função retorna um array com duas posições, a primeira é a variável com seu valor inicial e a segunda é a função para atualizarmos seu valor. Sem ferir os conceitos de imutabilidade, onde não podemos alterar seu formato, incluir ou informações, é preciso recriar aquela informação com as alterações que desejamos.
 </p>
 
 ### **Propriedade**
