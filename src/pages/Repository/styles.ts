@@ -41,7 +41,7 @@ export const RepositoryInfo = styled.section`
 
       strong {
         font-size: 36px;
-        color: #3d3d4d;
+        color: #d4d4d4;
       }
 
       p {
@@ -67,7 +67,7 @@ export const RepositoryInfo = styled.section`
       display: block;
       font-size: 36px;
 
-      color: #3d3d4d;
+      color: #d4d4d4;
     }
 
     span {
@@ -82,7 +82,7 @@ export const Issues = styled.div`
   margin-top: 80px;
 
   a {
-    background: #fff;
+    background: #525354;
     border-radius: 5px;
     width: 100%;
     padding: 24px;
@@ -97,7 +97,8 @@ export const Issues = styled.div`
     }
 
     &:hover {
-      transform: translateX(10px);
+      transform: translateX(10px) translateY(-1px);
+      opacity: 0.7;
     }
 
     div {
@@ -106,7 +107,7 @@ export const Issues = styled.div`
 
       strong {
         font-size: 20px;
-        color: #3d3d4d;
+        color: #d4d4d4;
       }
 
       p {

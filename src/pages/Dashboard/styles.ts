@@ -7,7 +7,7 @@ interface FormProps {
 
 export const Title = styled.h1`
   font-size: 48px;
-  color: #3a3a3a;
+  color: #d4d4d4;
   max-width: 450px;
   line-height: 46px;
 
@@ -24,14 +24,17 @@ export const Form = styled.form<FormProps>`
     flex: 1;
     height: 70px;
     padding: 0 24px;
+    background-color: #525354;
     border-radius: 5px 0 0 5px;
-    color: #3a3a3a;
-    border: 2px solid #eee;
+    color: #d4d4d4;
+    border: 2px solid #525354;
+    transition: box-shadow 0.3s;
 
     ${(props) =>
       props.hasError &&
       css`
         border-color: #c53030;
+        box-shadow: 0px 0px 40px 2px #c53030;
       `}
 
     &::placeholder {
@@ -42,15 +45,15 @@ export const Form = styled.form<FormProps>`
   button {
     width: 210px;
     height: 70px;
-    background: #04d361;
+    background: #7159c1;
     border-radius: 0 5px 5px 0;
     border: 0;
-    color: #fff;
+    color: #d4d4d4;
     font-weight: bold;
     transition: background-color 0.35s;
 
     &:hover {
-      background: ${shade(0.2, '#04d361')};
+      background: ${shade(0.2, '#7159c1')};
     }
   }
 `;
@@ -66,7 +69,7 @@ export const Repositories = styled.div`
   max-width: 700px;
 
   a {
-    background: #fff;
+    background: #525354;
     border-radius: 5px;
     width: 100%;
     padding: 24px;
@@ -81,7 +84,8 @@ export const Repositories = styled.div`
     }
 
     &:hover {
-      transform: translateX(10px);
+      transform: translateX(10px) translateY(-1px);
+      opacity: 0.7;
     }
 
     img {
@@ -96,7 +100,7 @@ export const Repositories = styled.div`
 
       strong {
         font-size: 20px;
-        color: #3d3d4d;
+        color: #d4d4d4;
       }
 
       p {
